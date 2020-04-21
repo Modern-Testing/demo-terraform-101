@@ -7,6 +7,6 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   # ...
-  ami = vars.ami
+  ami = var.ami
   instance_type = "t2.nano"
 }
