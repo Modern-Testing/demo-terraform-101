@@ -1,7 +1,7 @@
 provider "aws" {
   access_key = ""
   secret_key = ""
-  region     = ""
+  region     = var.AWS_DEFAULT_REGION
   version = ">= 2.27.0"
 }
 
